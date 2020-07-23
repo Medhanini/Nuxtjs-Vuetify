@@ -54,7 +54,7 @@
         icon
         @click.stop="rightDrawer = !rightDrawer"
       >
-        <v-icon>heeeee</v-icon>
+        <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
     <v-content>
@@ -103,8 +103,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'skeleton',
+          to: '/skeleton'
         }
       ],
       miniVariant: false,
